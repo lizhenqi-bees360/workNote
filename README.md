@@ -6,4 +6,6 @@
 #### v-model
      v-model.lazy
      [参考链接](https://cn.vuejs.org/v2/guide/forms.html#修饰符 "Vue修饰符")
-     
+#### matlab启动桌面错误
+     输入命令改变.matlab 权限即可 sudo chmod -R a+rw ~/.matlab  
+#### 。。
