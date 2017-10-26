@@ -9,6 +9,6 @@
 #### matlab启动桌面错误
      输入命令改变.matlab 权限即可 sudo chmod -R a+rw ~/.matlab  
 #### 发布
-      cd dist(发布的文件夹)
-      scp -r static bees@192.168.1.116:/home/bees/deploy/website
-      scp -r index.html bees@192.168.1.116:/home/bees/deploy/website
+      cd dist(发布的文件夹)  
+      scp -r static bees@192.168.1.116:/home/bees/deploy/website  
+      scp -r index.html bees@192.168.1.116:/home/bees/deploy/website  
