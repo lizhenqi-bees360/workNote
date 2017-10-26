@@ -8,4 +8,7 @@
      [参考链接](https://cn.vuejs.org/v2/guide/forms.html#修饰符 "Vue修饰符")
 #### matlab启动桌面错误
      输入命令改变.matlab 权限即可 sudo chmod -R a+rw ~/.matlab  
-#### 。。
+#### 发布
+      cd dist(发布的文件夹)
+      scp -r static bees@192.168.1.116:/home/bees/deploy/website
+      scp -r index.html bees@192.168.1.116:/home/bees/deploy/website
