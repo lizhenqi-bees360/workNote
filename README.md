@@ -12,5 +12,6 @@
       cd dist(发布的文件夹)  
       scp -r static bees@192.168.1.116:/home/bees/deploy/website  
       scp -r index.html bees@192.168.1.116:/home/bees/deploy/website  
+      scp -r index.html static/ bees@192.168.1.116:/home/bees/servers/apache-tomcat-8.5.23/webapps/bees360-web
 #### matlab创建任何类型的结果矩阵
       [参考链接](https://cn.mathworks.com/help/matlab/apiref/mxcreatenumericarray.html "创建矩阵")
