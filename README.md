@@ -11,7 +11,10 @@
 #### 发布
       cd dist(发布的文件夹)  
       scp -r static bees@192.168.1.116:/home/bees/deploy/website  
-      scp -r index.html bees@192.168.1.116:/home/bees/deploy/website  
-      scp -r index.html static/ bees@192.168.1.116:/home/bees/servers/apache-tomcat-8.5.23/webapps/bees360-web
+      scp -r index.html bees@192.168.1.116:/home/bees/deploy/website   
+      scp -r index.html static/ bees@192.168.1.116:/home/bees/servers/apache-tomcat-8.5.23/webapps/bees360-web  
 #### matlab创建任何类型的结果矩阵
       [参考链接](https://cn.mathworks.com/help/matlab/apiref/mxcreatenumericarray.html "创建矩阵")
+#### linux 修改文件拥有者
+      chown [-R] 账号名称 文件或目录  
+      chown [-R] 账号名称:用户组名称 文件或目录  
