@@ -18,3 +18,4 @@
 #### linux 修改文件拥有者
       chown [-R] 账号名称 文件或目录  
       chown [-R] 账号名称:用户组名称 文件或目录  
+https://help.github.com/articles/changing-a-remote-s-url/#platform-linux
