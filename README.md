@@ -18,4 +18,6 @@
 #### linux 修改文件拥有者
       chown [-R] 账号名称 文件或目录  
       chown [-R] 账号名称:用户组名称 文件或目录  
-https://help.github.com/articles/changing-a-remote-s-url/#platform-linux
+https://help.github.com/articles/changing-a-remote-s-url/#platform-linux  
+#### 请输入一个提交信息以解释此合并的必要性，尤其是将一个更新后的上游分支 # 合并到主题分支 解决方法
+   http://9i9icenter.com/huanqiuNews/5854034a128fe1006b5ff19e
