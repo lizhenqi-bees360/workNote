@@ -21,3 +21,5 @@
 https://help.github.com/articles/changing-a-remote-s-url/#platform-linux  
 #### 请输入一个提交信息以解释此合并的必要性，尤其是将一个更新后的上游分支 # 合并到主题分支 解决方法
    http://9i9icenter.com/huanqiuNews/5854034a128fe1006b5ff19e
+#### ubuntu解决声音问题 pavucontrol
+   https://lms.im/os/no-sound-solution-ubuntu-16-04.html  
