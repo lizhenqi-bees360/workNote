@@ -23,3 +23,26 @@ https://help.github.com/articles/changing-a-remote-s-url/#platform-linux
    http://9i9icenter.com/huanqiuNews/5854034a128fe1006b5ff19e
 #### ubuntu解决声音问题 pavucontrol
    https://lms.im/os/no-sound-solution-ubuntu-16-04.html  
+#### 点云循环显示，可能优化的一个方面  
+
+```
+//分开循环更快  
+	//x: 200-400 , y: 100-250
+	for(var i=0; i<2000; i++){
+		face['x'] = Math.random()*200 +200;
+		face['y'] = Math.random()*150 +100;
+		$myCanvas.drawArc(face);
+	}
+	//x: 500-700 , y: 100-250
+	for(var i=0; i<2000; i++){
+		face['x'] = Math.random()*200 +500;
+		face['y'] = Math.random()*150 +100;
+		$myCanvas.drawArc(face);
+	}
+	//x: 200-700 , y: 250-400
+	for(var i=0; i<4000; i++){
+		face['x'] = Math.random()*500 +200;
+		face['y'] = Math.random()*150 +250;
+		$myCanvas.drawArc(face);
+	}
+```
