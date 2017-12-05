@@ -54,5 +54,7 @@ https://github.com/caleb531/jcanvas-docs/wiki/Canvas-Clear-canvas-%E6%B8%85%E7%A
 var uint8array = new TextEncoder("utf-8").encode("¢");
 var string = new TextDecoder("utf-8").decode(uint8array);
 ```
+https://stackoverflow.com/questions/8936984/uint8array-to-string-in-javascript  
+
 
 
