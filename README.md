@@ -56,5 +56,12 @@ var string = new TextDecoder("utf-8").decode(uint8array);
 ```
 https://stackoverflow.com/questions/8936984/uint8array-to-string-in-javascript  
 
+#### 整数转化为对应进制的字符串
+```
+Number.toString(n)
+Number.toString(2)
+Number.toString(8)
+Number.toString(16)
+```
 
 
