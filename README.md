@@ -63,5 +63,8 @@ Number.toString(2)
 Number.toString(8)
 Number.toString(16)
 ```
-
+#### 对数组操作元素,增加和刪除
+	1. 删除一个元素 Array.splice(index,1)
+	2. 增加一个元素 Array.splice(index,0,value)  0代表不替换其他的
+	3. 替换一个元素 Array.splice(index,1,value)
 
