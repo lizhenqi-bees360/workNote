@@ -67,4 +67,7 @@ Number.toString(16)
 	1. 删除一个元素 Array.splice(index,1)
 	2. 增加一个元素 Array.splice(index,0,value)  0代表不替换其他的
 	3. 替换一个元素 Array.splice(index,1,value)
-
+#### matlab .mat 转 csv
+```
+csvwrite('points.csv', house3Dinfo.modelInfo.iniSFMAndPMVS.densePC.Location)
+```
