@@ -71,3 +71,9 @@ Number.toString(16)
 ```
 csvwrite('points.csv', house3Dinfo.modelInfo.iniSFMAndPMVS.densePC.Location)
 ```
+#### 使用ranjian电脑CPU
+```
+ssh -X 192.168.1.152
+locate Matlab
+sudo /usr/local/MATLAB/R2017a/bin/matlab
+```
