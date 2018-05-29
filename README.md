@@ -81,6 +81,7 @@ sudo /usr/local/MATLAB/R2017a/bin/matlab
 
 #### 信用卡格式
 ```
+defaultFormat = /(\d{1,4})/g;
 cards = [
     {
       type: 'amex',
